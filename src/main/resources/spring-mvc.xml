@@ -12,10 +12,11 @@
         <context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
     </context:component-scan>
 
-    <mvc:default-servlet-handler></mvc:default-servlet-handler>
+    <!-- 静态资源处理servlet配置 -->
+    <mvc:default-servlet-handler />
 
     <!--启用注解驱动,不写将不会跳转到控制器-->
-    <mvc:annotation-driven></mvc:annotation-driven>
+    <mvc:annotation-driven />
 
     <mvc:interceptors>
         <mvc:interceptor>
