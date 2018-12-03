@@ -14,7 +14,7 @@
 
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
 
-    <!--启用注解驱动,不写将不会会跳转到控制器-->
+    <!--启用注解驱动,不写将不会跳转到控制器-->
     <mvc:annotation-driven></mvc:annotation-driven>
 
     <mvc:interceptors>
