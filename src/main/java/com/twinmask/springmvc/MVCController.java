@@ -11,6 +11,7 @@ public class MVCController {
     public String hello(){
         System.out.println("进来了");
         System.out.println("测试一下 Git");
+        System.out.println("哈哈 我又测试一下");
         return "index";
     }
 }
