@@ -10,6 +10,7 @@ public class MVCController {
     @RequestMapping(value = "/hello")
     public String hello(){
         System.out.println("进来了");
+        System.out.println("测试一下 Git");
         return "index";
     }
 }
